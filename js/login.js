@@ -1,0 +1,1 @@
+/* Fichero de scripts JS para la ventana de login */
