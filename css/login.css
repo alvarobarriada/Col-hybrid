@@ -1,4 +1,25 @@
 /* Hoja de estilos para la ventana de login */
+
+/* Estilso de toda la página */
 * {
     background-color: #1B1D1C;
+    color: white;
+    font-family: "Roboto";
 }
+
+/* Formulario de login */
+label {
+    font-size: 30px; 
+    color: #2A9D8F;   
+}
+
+input {
+    background-color: white;
+    border-radius: 7px;
+}
+
+/* Botón de login*/
+.acceder {
+    background-color: #2A9D8F;
+    font-size: 20px;
+} 
