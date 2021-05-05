@@ -1,6 +1,6 @@
 /* Hoja de estilos para la ventana de login */
 
-/* Estilso de toda la página */
+/* Estilos de toda la página */
 * {
     background-color: #1B1D1C;
     color: white;
@@ -13,6 +13,7 @@ label {
     color: #2A9D8F;   
 }
 
+/* Cuadro de texto para introducir usuario o contraseña */
 input {
     background-color: white;
     border-radius: 7px;

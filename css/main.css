@@ -1,0 +1,15 @@
+/* Hoja de estilos básica común a la mayoría de pantallas */
+
+* {
+    background-color: white;
+    color: #2A9D8F;
+    font-family: "Roboto";
+}
+
+.header {
+    background-color: teal;
+}
+
+.hamburguesa {
+    background-color: teal;
+}
