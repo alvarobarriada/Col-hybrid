@@ -1,5 +1,5 @@
 
-
+/*
 .row {
     margin-top: 50px;
     display: flex;
@@ -16,8 +16,39 @@ img {
     height: 100px;
     margin-bottom: 20px;
 }
-
+*/
 h3 {
     color: #333;
+    text-align: center;
+    padding-top: 7px;
+
 }
 
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row > asignatura {
+    flex: 1 1 30%; /*grow | shrink | basis */
+    height: 100px;
+}
+.asignatura{
+  text-align: center;
+  color: gray;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.icono-asignatura{
+    width: 100px;
+    height: 100px;
+    margin-left: 0px !important; 
+    margin-top: 2px !important;
+    padding: 0px !important; 
+}
