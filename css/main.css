@@ -1,9 +1,11 @@
 /* Hoja de estilos básica común a la mayoría de pantallas */
 
 * {
-    background-color: white;
     color: #2A9D8F;
     font-family: "Roboto";
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .header {
@@ -13,3 +15,5 @@
 .hamburguesa {
     background-color: teal;
 }
+
+
