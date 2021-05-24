@@ -19,7 +19,7 @@
 
 /* Formulario de login */
 label {
-    font-size: 100px; 
+    font-size: 70px; 
     color: #2A9D8F;   
 }
 #icono {
@@ -60,13 +60,14 @@ input {
 }
 
 .correo{
-    margin-left: 80px;
+    margin-left: 140px;
 }
 .textfield{
     margin-left: 40px;
+    margin-top: 20px;
 }
 .nombre{
-    font-size:60px; 
+    font-size:70px; 
     color: #2A9D8F; 
-    margin-left: -50px;        
+    margin-left: -110px;        
 }
