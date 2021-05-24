@@ -1,0 +1,27 @@
+.titulo{
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 70px; 
+    color: #2A9D8F;
+}
+
+.enunciado{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000;
+
+}
+
+.en{
+    font-size: 50px; 
+    font-weight: bold;
+}
+
+.recuadro{
+    text-justify: auto;
+    font-size: 40px;
+}

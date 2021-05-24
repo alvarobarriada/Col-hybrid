@@ -5,6 +5,9 @@
     background-color: #0000;
     color: white;
     font-family: "Roboto";
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /* Botón de telecole */
@@ -21,7 +24,7 @@
     border-width: 4px;
     width: 600px;
     height: 150px;
-    margin-left: 30%;
+    margin-left: 170px;
     align-content: center;
 } 
 
@@ -36,7 +39,7 @@
     border-width: 4px;
     width: 600px;
     height: 150px;
-    margin-left: 30%;
+    margin-left: 170px;
     align-content: center;
 } 
 
