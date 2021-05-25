@@ -4,9 +4,10 @@
     margin-right: 0px;
 }
 .titulo{
-    margin-top: 130px;
+    margin-top: 75px;
     margin-left: 40px;
     font-size: 90px; 
+    padding-top: 2px;
     color: #2A9D8F;
 }
 
@@ -19,6 +20,7 @@
     border-width: 2px;
     border-radius: 10px;
     border-color: #000;
+    margin-bottom: 8px;
 
 }
 
@@ -29,7 +31,7 @@
 }
 
 .recuadro{
-    margin-top: 20px;
+    margin-top: 15px;
     text-justify: auto;
     font-size: 40px;
 }
@@ -38,4 +40,53 @@
 
 .cuadraditos{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+.cuadrado{
+    text-align: center;
+    color: gray;
+    padding-left: 85px;
+    padding-right: 85px;
+
+  }
+
+  .icono-cuadrado{
+    width: 120px;
+    height: 120px;
+    margin-left: 10px !important; 
+    margin-top: 3px !important;
+    padding: 9px !important;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000;
+}
+h3 {
+    color: #333;
+    text-align: center;
+    padding-top: 11px;
+    font-size: xx-large;
+}
+.com{
+    font-size: 50px;
+    text-align: left !important;
+    margin-left: 40px;
+}
+
+.enviar{
+    margin-top: 8px;
+    padding-top: 8px;
+    background-color:#2A9D8F;
+    font-size: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    width: 600px;
+    height: 100px;
+    margin-left: 170px;
+    align-content: center;
 }

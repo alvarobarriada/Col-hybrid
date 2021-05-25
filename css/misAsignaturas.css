@@ -35,10 +35,7 @@ h3 {
     padding-bottom: 50px;
 }
 
-.row > asignatura {
-    flex: 1 1 30%; /*grow | shrink | basis */
-    height: 100px;
-}
+
 .asignatura{
   text-align: center;
   color: gray;
