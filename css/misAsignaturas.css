@@ -20,10 +20,10 @@ img {
 h3 {
     color: #333;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 11px;
+    font-size: xx-large;
 
 }
-
 
 
 .row {
@@ -31,7 +31,7 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 50px;
 }
 
@@ -42,13 +42,13 @@ h3 {
 .asignatura{
   text-align: center;
   color: gray;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 85px;
+  padding-right: 85px;
 }
 .icono-asignatura{
-    width: 100px;
-    height: 100px;
-    margin-left: 0px !important; 
-    margin-top: 2px !important;
-    padding: 0px !important; 
+    width: 200px;
+    height: 200px;
+    margin-left: 10px !important; 
+    margin-top: 3px !important;
+    padding: 9px !important; 
 }
