@@ -16,16 +16,38 @@
     border-width: 2px;
     align-content: center;
     border-color: #000;
+    border-top: transparent;
+    /* border-right: transparent; */
+    border-left: transparent;
+    border-bottom: transparent;
+    color: white;
+    padding-left: 6%;
     /*margin-left: 15%;
     margin-top: 70px;*/
-    
 
+}
+.active{
+    border-bottom: solid;
+    border-color: black;
+}
+
+.teoria{
+    background-color: rgba(0, 107, 213, 0.6);
+}
+.ejercicios{
+    background-color: rgba(235, 141, 58, 1.0);
+}
+.grabaciones{
+    background-color: rgba(242, 86, 82, 1.0);
+}
+.tareas{
+    background-color: rgba(42, 157, 143, 0.87);
+}
+.foro{
+    background-color: rgba(255, 118, 245, 1.0);
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-background-color: #fff;
-}
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
