@@ -52,7 +52,6 @@
 /* Style the accordion panel. Note: hidden by default */
 .panel {
     margin-top: 14px;    
-    margin-left: 15%;
     padding: 0 18px;
     width:  660px;
     display: none;
@@ -68,4 +67,10 @@
     border-width: 2px;
     border-radius: 10px;
     border-color: #000;
+}
+
+p{
+    font-size: 29px;
+    line-height: 2.8;
+    
 }
