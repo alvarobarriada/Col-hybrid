@@ -109,3 +109,26 @@ p{
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+/* Botón de telecole */
+
+.telecole {
+    background-color: #E8B34A;
+    font-size: 60px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    width: 554px;
+    height: 103px;
+    margin-left: 21%;
+    align-content: center;
+} 
+
+
+.text{
+    color: white;
+    margin-right: 112px;
+    margin-top: 19px;
+    font-size: 51px;
+  }
