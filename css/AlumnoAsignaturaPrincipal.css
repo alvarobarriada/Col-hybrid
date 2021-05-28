@@ -72,5 +72,39 @@
 p{
     font-size: 29px;
     line-height: 2.8;
-    
+}
+
+.enunciado{
+    margin-top: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    padding: 30px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000;
+    margin-bottom: 8px;
+}
+
+.recuadro{
+    margin-top: 15px;
+    text-justify: auto;
+    font-size: 12px;
+}
+.responder{
+    font-size: 20px;
+    margin-left: 78%;
+}
+
+.anteriores{
+    font-size: 10px;
+    margin-bottom: -31px;
+    margin-left: 28%;
+}
+
+.hilo{
+    font-size: 32px;
+    margin-left: 28%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
