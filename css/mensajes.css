@@ -1,0 +1,88 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 9%;
+    font-size: 60px;
+}
+
+.accordion {
+    cursor: pointer;
+    width:  703px;
+    height: 103px;
+    text-align: left;
+    transition: 0.4s;
+    border-radius: 10px;
+    font-size: 40px;
+    justify-content: center;
+    border-width: 2px;
+    align-content: center;
+    border-color: #000;
+    border-top: transparent;
+    /* border-right: transparent; */
+    border-left: transparent;
+    border-bottom: transparent;
+    color: white;
+    padding-left: 6%;
+    /*margin-left: 15%;
+    margin-top: 70px;*/
+
+}
+
+.recibidos{
+    background-color: rgba(26, 189, 81, 0.87);
+}
+.enviados{
+    background-color: rgba(158, 82, 242, 1);
+}
+
+.active{
+    border-bottom: solid;
+    border-color: black;
+}
+
+.mensaje {
+    margin-top: 14px;    
+    padding: 0 18px;
+    width:  664px;
+    display: none;
+    overflow: hidden;
+    align-content: center;
+    border-width: 2px;
+    border-style: transparent;
+}
+
+
+.borde{
+    margin-top: 70px;
+    margin-left: 15%;
+    width:  700px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000;
+    margin-bottom: 7%;
+}
+
+.icono{
+    height: 3%;
+    width: 8%;
+    margin-left: 3px;
+    margin-bottom: 12px;
+}
+
+.asunto{
+    display: flex;
+    flex-direction: row;
+}
+
+.responder{
+    font-size: 20px;
+    margin-left: 81%;
+    margin-bottom: 3%;
+}

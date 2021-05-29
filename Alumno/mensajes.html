@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Mensajes </title>
+        <link rel="stylesheet" href="../css/mensajes.css">
+
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    ≡
+                </button>
+    
+                <div class="dropdown-content">
+                    <a href="#">Horario</a>
+                    <a href="#">Calificaciones</a>
+                    <a href="#">Mensajes</a>
+                    <a href="#">Calendario</a>
+                    <a href="#">Mi Perfil</a>
+                    <a href="#">Cerrar Sesión</a>
+                </div>
+    
+            </div>
+            
+            <div class="navtext">
+                Hola María
+            </div>
+    
+             <div class="imgLogo">
+                <img class = "imgnavbar" src="../img/icono_user.png">
+            </div>
+        </div>
+
+        <h1>Mensajes</h1>
+
+        <div class= "borde">
+            <button class="accordion recibidos">Recibidos</button>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje.png" alt="">
+                    <h2 style="padding-top: 5%;">Solicitar tutoría para dudas</h2>
+                    
+                    <h3 style="padding-top: 6%; padding-left: 20%;">2021/03/10 - 9:56h</h3>
+                </div>
+                <div class = "cuerpo" style="margin-left: 2%;">
+                    <p>
+                        Buenos días Alumno 1,
+                        <br>
+                            Podemos intentar tener una tutoría el próximo Martes día 7, si te parece bien podemos resolver todas las dudas que tengas y hacemos un breve repaso de cara al examen final.
+                        <br>
+                        Un saludo
+                        <br>
+                        <br>
+                        De: Alfonso
+                    </p>
+                    <button class= "responder">RESPONDER</button>
+                </div>
+
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png" alt="">
+                    <h2 style="padding-top: 5%;">Propuesta trabajo final</h2>
+                    
+                    <h3 style="padding-top: 6%; padding-left: 26%;">2021/03/10 - 11:56h</h3>
+                </div>
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png"alt="">
+                    <h2 style="padding-top: 5%;">Avance de la actividad 4</h2>
+                    
+                    <h3 style="padding-top: 6%; padding-left: 24%;">2021/03/10 - 10:26h</h3>
+                </div>
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png" alt="">
+                    <h2 style="padding-top: 5%;">Examen Parcial Aprobado!</h2>
+                    
+                    <h3 style="padding-top: 6%; padding-left: 21%;">2021/03/10 - 9:58h</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class= "borde">
+            <button class="accordion enviados">Enviados</button>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje.png" alt="">
+                    <h2 style="padding-top: 5%;">Duda sobre examen parcial</h2>
+                    
+                    <h3 style="padding-top: 6%; padding-left: 20%;">2021/03/10 - 9:56h</h3>
+                </div>
+                <div class = "cuerpo" style="margin-left: 2%;">
+                    <p>
+                        Buenos días Profesor 2,
+                        <br>
+                        Tengo unas cuántas dudas sobre el examen parcial, en concreto sobre el Tema 2 de derivadas parciales y el tema 3 de integrales definidas. ¿Podríamos intentar tener una tutoría lo antes posible?
+                        <br>
+                        Gracias - María Pérez Martínez
+                        <br>
+                        Para: Sofía
+                    </p>
+                    <button class= "responder">RESPONDER</button>
+                </div>
+
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png" alt="">
+                    <h2 style="padding-top: 5%;">Asistencia próxima clase</h2>
+                    
+                    <h3 style="padding-top: 6%; padding-left: 26%;">2021/03/10 - 11:56h</h3>
+                </div>
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png"alt="">
+                    <h2 style="padding-top: 5%;">Ejercicios entrega 1B</h2>
+                    
+                    <h3 style="padding-top: 6%; padding-left: 24%;">2021/03/10 - 10:26h</h3>
+                </div>
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png" alt="">
+                    <h2 style="padding-top: 5%;">Cambio examen final</h2>
+                    
+                    <h3 style="padding-top: 6%; padding-left: 21%;">2021/03/10 - 9:58h</h3>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+        <script>
+
+
+            var acc = document.getElementsByClassName("accordion");
+            var men = document.getElementsByClassName("mensaje");
+
+            var i;
+        
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+                
+                    siblings = [];
+                    // first child of the parent node
+                    let sibling = this.parentNode.firstElementChild;
+
+                    // loop through next siblings until `null`
+                    do {
+                        // push sibling to array
+                        if (sibling != this) {
+                            siblings.push(sibling);
+                        }
+                    } while (sibling = sibling.nextElementSibling);
+                        for (a = 0; a < siblings.length; a++) {
+                        mensaje = siblings[a];
+                        if (mensaje.style.display === "block") {
+                            mensaje.style.display = "none";
+                            mensaje.style.borderBottomStyle = "transparent !important";
+                            
+                        } else {
+                            mensaje.style.display = "block";
+                            if (a != (siblings.length-1)){
+                                mensaje.style.borderBottomStyle = "solid";
+                            }
+                        }
+                
+                }
+                /* Toggle between hiding and showing the active panel */
+                
+            }
+            
+
+            
+            );
+            } 
+            </script>
+    </body>
+
+</html>
