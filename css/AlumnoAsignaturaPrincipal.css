@@ -1,134 +1,48 @@
-*{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
+/* Hoja de estilos para la ventana de login */
 
-.accordion {
-    cursor: pointer;
-    width:  703px;
-    height: 103px;
-    text-align: left;
-    transition: 0.4s;
-    border-radius: 10px;
-    font-size: 40px;
-    justify-content: center;
-    border-width: 2px;
-    align-content: center;
-    border-color: #000;
-    border-top: transparent;
-    /* border-right: transparent; */
-    border-left: transparent;
-    border-bottom: transparent;
+/* Estilos de toda la página */
+* {
+    background-color: #1B1D1C;
     color: white;
-    padding-left: 6%;
-    /*margin-left: 15%;
-    margin-top: 70px;*/
-
-}
-.active{
-    border-bottom: solid;
-    border-color: black;
+    font-family: "Roboto";
 }
 
-.teoria{
-    background-color: rgba(0, 107, 213, 0.6);
-}
-.ejercicios{
-    background-color: rgba(235, 141, 58, 1.0);
-}
-.grabaciones{
-    background-color: rgba(242, 86, 82, 1.0);
-}
-.tareas{
-    background-color: rgba(42, 157, 143, 0.87);
-}
-.foro{
-    background-color: rgba(255, 118, 245, 1.0);
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    margin-top: 14px;    
-    padding: 0 18px;
-    width:  660px;
-    display: none;
-    overflow: hidden;
-    align-content: center;
-}
-
-.borde{
-    margin-top: 70px;
-    margin-left: 15%;
-    width:  700px;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #000;
-    margin-bottom: 7%;
-}
-
-p{
-    font-size: 29px;
-    line-height: 2.8;
-}
-
-.enunciado{
-    margin-top: 12px;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-style: solid;
-    padding: 30px;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #000;
-    margin-bottom: 8px;
-}
-
-.recuadro{
-    margin-top: 15px;
-    text-justify: auto;
-    font-size: 12px;
-}
-.responder{
+/* Botón de enviar*/
+.enviar {
+    margin-top: 30px;
+    background-color:#2A9D8F;
     font-size: 20px;
-    margin-left: 78%;
-}
-
-.anteriores{
-    font-size: 10px;
-    margin-bottom: -31px;
-    margin-left: 28%;
-}
-
-.hilo{
-    font-size: 32px;
-    margin-left: 28%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-/* Botón de telecole */
-
-.telecole {
-    background-color: #E8B34A;
-    font-size: 60px;
-    border-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    width: 554px;
-    height: 103px;
-    margin-left: 23%;
-    align-content: center;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
 } 
 
+/* Formulario de recuperación de contraseña */
+#formulario {
+    margin-top: 100px;
+    text-align: center;
+}
 
-.text{
-    color: white;
-    margin-right: 112px;
-    margin-top: 19px;
-    font-size: 51px;
-  }
+label {
+    margin-bottom: 20px;
+    font-size: 30px; 
+    color: #2A9D8F; 
+}
+
+/* Cuadro de texto para introducir usuario o contraseña */
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 7px;
+    height: 30px;
+    width: 75%;
+}
+
+h1 {
+    font-size: 40px; 
+    color: #2A9D8F;
+    text-align: center;    
+    margin-top: 30px;   
+}
