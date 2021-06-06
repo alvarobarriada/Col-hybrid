@@ -6,12 +6,12 @@
 
 .accordion {
     cursor: pointer;
-    width:  703px;
-    height: 103px;
+    width:  370px;
+    height: 80px;
     text-align: left;
     transition: 0.4s;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 30px;
     justify-content: center;
     border-width: 2px;
     align-content: center;
@@ -22,8 +22,7 @@
     border-bottom: transparent;
     color: white;
     padding-left: 6%;
-    /*margin-left: 15%;
-    margin-top: 70px;*/
+
 
 }
 .active{
@@ -51,27 +50,26 @@
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    margin-top: 14px;    
-    padding: 0 18px;
-    width:  660px;
+    margin-top: 8px;    
+    width:  370px;
     display: none;
     overflow: hidden;
     align-content: center;
 }
 
 .borde{
-    margin-top: 70px;
-    margin-left: 15%;
-    width:  700px;
+    margin-top: 40px;
+    margin-left: 5%;
+    width:  370px;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
     border-color: #000;
-    margin-bottom: 7%;
+    margin-bottom: 10%;
 }
 
 p{
-    font-size: 29px;
+    font-size: 15px;
     line-height: 2.8;
 }
 
@@ -80,7 +78,7 @@ p{
     margin-left: 10%;
     margin-right: 10%;
     border-style: solid;
-    padding: 30px;
+    padding: 15px;
     border-width: 2px;
     border-radius: 10px;
     border-color: #000;
@@ -90,46 +88,50 @@ p{
 .recuadro{
     margin-top: 15px;
     text-justify: auto;
-    font-size: 12px;
+    font-size: 15px;
+    padding-left: 5%;
 }
 .responder{
-    font-size: 20px;
-    margin-left: 78%;
+    font-size: 17px;
+    margin-left: 60%;
+    margin-bottom: 5px;
 }
 
 .anteriores{
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: -31px;
     margin-left: 28%;
 }
 
 .hilo{
-    font-size: 32px;
-    margin-left: 28%;
+    font-size: 20px;
+    margin-left: 24%;
     margin-top: 4%;
     margin-bottom: 4%;
+    font-weight: 700;
 }
+
 
 /* Botón de telecole */
 
 .telecole {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 25px;
+    font-weight: 600;
     background-color: #E8B34A;
-    font-size: 60px;
-    border-radius: 10px;
+    color: white;
+    border-radius: 30px;
     border-color: black;
     border-style: solid;
-    border-width: 2px;
-    width: 554px;
-    height: 103px;
-    margin-left: 21%;
-    margin-left: 23%;
-    align-content: center;
+    border-width: 4px;
+    width: 300px;
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    margin-left: 50px;
 } 
 
 
-.text{
-    color: white;
-    margin-right: 112px;
-    margin-top: 19px;
-    font-size: 51px;
-  }
+
+
