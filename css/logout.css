@@ -43,10 +43,11 @@ img {
 } 
 
 p {
-    color: #006DFF;
+    color: white;
     text-decoration: underline;
     margin-top: 50px;
-    text-align: right;
+    text-align: center;
     margin-right: 50px;
     font-size: 20px;
+    align-self: center;
 }
