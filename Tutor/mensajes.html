@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Mensajes </title>
+        <link rel="stylesheet" href="../css/mensajes.css">
+
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+    <div class="topnav" id="myTopnav">
+        <div class="dropdown">
+
+            <button class="dropbtn">
+                ≡
+            </button>
+
+            <div class="dropdown-content">
+                <a href="horario.html">Horario</a>
+                <a href="calificaciones.html">Calificaciones</a>
+                <a href="mensajes.html">Mensajes</a>
+                <a href="calendario.html">Calendario</a>
+                <a href="miPerfil.html">Mi Perfil</a>
+                <a href="Inicio/logout.html">Cerrar Sesión</a>
+            </div>
+
+        </div>
+
+    <a href="menuPrincipal.html">
+            <div class="navtext">Hola María </div>
+
+
+            <div class="imgLogo"><img src="../img/icono_user.png" width="70" height="70" style="float:right;" ></div>
+    </a>    
+
+
+    </div>
+
+        <h1>Mensajes</h1>
+
+        <div class= "borde">
+            <button class="accordion recibidos">Recibidos</button>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje.png" alt="">
+                    <h2 style="padding-top: 3%; padding-left: 7%;">Solicitar tutoría</h2>
+                </div>
+                <div class = "cuerpo" style="margin-left: 2%;">
+                    <p>
+                        Buenos días Alumno 1,
+                        <br>
+                            Podemos intentar tener una tutoría el
+                            <br> 
+                            Martes 7. Quería hacer un breve repaso
+                            <br> 
+                            para el examen final. 
+                        <br>
+                        Un saludo
+                        <br>
+                        <br>
+                        De: Alfonso
+                    </p>
+                    <button class= "responder">RESPONDER</button>
+                </div>
+
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png" alt="">
+                    <h2 style="padding-top: 3%; padding-left: 7%;">Propuesta trabajo final</h2>
+                    
+                </div>
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png"alt="">
+                    <h2 style="padding-top: 3%; padding-left: 7%;">Avance de la actividad </h2>
+                
+                </div>
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png" alt="">
+                    <h2 style="padding-top: 3%; padding-left: 7%;">Examen Parcial 5</h2>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class= "borde">
+            <button class="accordion enviados">Enviados</button>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje.png" alt="">
+                    <h2 style="padding-top: 3%; padding-left: 7%;">Duda sobre examen</h2>
+                    
+                </div>
+                <div class = "cuerpo" style="margin-left: 2%;">
+                    <p>
+                        Buenos días Alumno 1,
+                        <br>
+                        <br>
+                            Podemos intentar tener una tutoría el
+                            <br> 
+                            Martes 7. Quería hacer un breve repaso
+                            <br> 
+                            para el examen final. 
+                        <br>
+                        Un saludo
+                        <br>
+                        <br>
+                        De: Alfonso
+                    </p>
+                    <button class= "responder">RESPONDER</button>
+                </div>
+
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png" alt="">
+                    <h2 style="padding-top: 3%; padding-left: 7%;">Asistencia próxima</h2>
+                    
+                </div>
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png"alt="">
+                    <h2 style="padding-top: 3%; padding-left: 7%;">Ejercicios entrega 1B</h2>
+                    
+                </div>
+            </div>
+            <div class="mensaje">
+                <div class = "asunto">
+                    <img class = "icono" src="../img/icono-mensaje-cerrado.png" alt="">
+                    <h2 style="padding-top: 3%; padding-left: 7%;">Cambio examen final</h2>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <a href="enviarMensaje.html">
+         <button class="mensajeBtn"> ENVIAR MENSAJE </button>
+        </a>  
+
+        <script>
+
+
+            var acc = document.getElementsByClassName("accordion");
+            var men = document.getElementsByClassName("mensaje");
+
+            var i;
+        
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+                
+                    siblings = [];
+                    // first child of the parent node
+                    let sibling = this.parentNode.firstElementChild;
+
+                    // loop through next siblings until `null`
+                    do {
+                        // push sibling to array
+                        if (sibling != this) {
+                            siblings.push(sibling);
+                        }
+                    } while (sibling = sibling.nextElementSibling);
+                        for (a = 0; a < siblings.length; a++) {
+                        mensaje = siblings[a];
+                        if (mensaje.style.display === "block") {
+                            mensaje.style.display = "none";
+                            mensaje.style.borderBottomStyle = "transparent !important";
+                            
+                        } else {
+                            mensaje.style.display = "block";
+                            if (a != (siblings.length-1)){
+                                mensaje.style.borderBottomStyle = "solid";
+                                
+                            }
+                        }
+                
+                }
+                /* Toggle between hiding and showing the active panel */
+                
+            }
+            
+
+            
+            );
+            } 
+            </script>
+    </body>
+
+</html>
