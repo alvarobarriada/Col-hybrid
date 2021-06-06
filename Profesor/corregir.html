@@ -1,20 +1,22 @@
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>Calendario</title>
+    <title>Enviar Mensaje</title>
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/enviarMensaje.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    
+
 </head>
-<body style="margin-top: 0px; margin-right: 0px; margin-left: 0px;">
+<body>
     <div class="topnav" id="myTopnav">
         <div class="dropdown">
-            
+
             <button class="dropbtn">
                 ≡
             </button>
-            
+
             <div class="dropdown-content">
                 <a href="horario.html">Horario</a>
                 <a href="calificaciones.html">Calificaciones</a>
@@ -23,31 +25,32 @@
                 <a href="miPerfil.html">Mi Perfil</a>
                 <a href="Inicio/logout.html">Cerrar Sesión</a>
             </div>
-            
-        </div>
-        
-        <a href="menuPrincipal.html">
-            <div class="navtext">Hola Pedro </div>
-            
-            
-            <div class="imgLogo"><img src="../img/icono_user.png" width="70" height="70" style="float:right;" ></div>
-        </a>
-        
-        
-    </div>
-    <br>
-    <h1 style="padding-left: 10%; margin-top: 10px;">Hoy, martes 7 de junio</h1>
-    <img src="../img/calendario.png" style="width: 90%; height: inherit; padding-left: 5%;">
-    <br>
-    <br>
-    <hr style="border-top: 2px solid;">
-    <h2 style="text-align: center;" >Leyenda</h2>
-    <img src="../img/leyenda.png" style="width: 100%; margin-top:-2%;">
-    
-    
-    
-</body>
 
+        </div>
+    <a href="menuPrincipal.html">
+            <div class="navtext">Hola Pedro </div>
+            <div class="imgLogo"><img src="../img/icono_user.png" width="70" height="70" style="float:right;" ></div>
+    </a>
+    </div>
+
+
+
+    <h1>Inglés - Parcial 1º A</h1>
+
+    <!-- Pantalla telecole -->
+    <div class="pizarra">
+        <img class="fondo" src="../img/correccion.png">
+    </div>
+
+    <label for="para"> Nota:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="text">
+    <br>
+
+    <label for="asunto"> Comentario:      </label>
+    <input type="text">
+    
+    <button class="mensajeBtn">ENVIAR</button>
+</body>
 
 
 </html>
