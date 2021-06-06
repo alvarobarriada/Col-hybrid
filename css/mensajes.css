@@ -7,20 +7,21 @@
 
 h1{
     text-align: center;
-    margin-top: 9%;
-    font-size: 60px;
+    margin-top: 7%;
+    font-size: 40px;
 }
 
 .accordion {
     cursor: pointer;
-    width:  703px;
-    height: 103px;
+    width:  350px;
+    height: 80px;
     text-align: center;
     transition: 0.4s;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 30px;
     justify-content: center;
     border-width: 2px;
+    font-weight: 700;
     align-content: center;
     border-color: #000;
     border-top: transparent;
@@ -28,7 +29,17 @@ h1{
     border-bottom: transparent;
     color: white;
 
+}
 
+.borde{
+    margin-top: 50px;
+    margin-left: 7%;
+    width:  350px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000;
+    margin-bottom: 7%;
 }
 
 .recibidos{
@@ -46,7 +57,7 @@ h1{
 .mensaje {
     margin-top: 14px;    
     padding: 0 18px;
-    width:  664px;
+    width:  316px;
     display: none;
     overflow: hidden;
     align-content: center;
@@ -55,22 +66,11 @@ h1{
 }
 
 
-.borde{
-    margin-top: 70px;
-    margin-left: 15%;
-    width:  700px;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #000;
-    margin-bottom: 7%;
-}
-
 .icono{
-    height: 3%;
-    width: 8%;
-    margin-left: 3px;
-    margin-bottom: 12px;
+    height: 13%;
+    width: 13%;
+    margin-left: 4px;
+    margin-bottom: 10px;
 }
 
 .asunto{
@@ -80,6 +80,7 @@ h1{
 
 .responder{
     font-size: 20px;
-    margin-left: 81%;
-    margin-bottom: 3%;
+    margin-left: 55%;
+    margin-bottom: 5%;
+    margin-top: -10%;
 }
