@@ -1,0 +1,30 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 34px;
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+input{
+
+    width: 40px;
+    height: 40px;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+
+
+}
+
+label{
+
+    margin-left: 15px;
+    font-size: 25px;
+}
