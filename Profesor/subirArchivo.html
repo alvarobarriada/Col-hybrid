@@ -1,0 +1,100 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Subir Tarea</title>
+    <link rel="stylesheet" href="../css/subirArchivo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navbar.css">
+    
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <div class="dropdown">
+            
+            <button class="dropbtn">
+                ≡
+            </button>
+            
+            <div class="dropdown-content">
+                <a href="horario.html">Horario</a>
+                <a href="calificaciones.html">Calificaciones</a>
+                <a href="mensajes.html">Mensajes</a>
+                <a href="calendario.html">Calendario</a>
+                <a href="miPerfil.html">Mi Perfil</a>
+                <a href="Inicio/logout.html">Cerrar Sesión</a>
+            </div>
+            
+        </div>
+        
+        <a href="menuPrincipal.html">
+            <div class="navtext">Hola María </div>
+            
+            
+            <div class="imgLogo"><img src="../img/icono_user.png" width="70" height="70" style="float:right;" ></div>
+        </a>    
+        
+        
+    </div>
+    
+    <h1 class = "titulo">Matemáticas</h1>
+
+    <label for="titulo"> Titulo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="text">
+    <br>
+
+
+
+    
+    <div class= "borde">
+        <button class="accordion teoria">Teoría</button>
+        
+    </div>
+    <div class= "borde">
+        <button class="accordion ejercicios">Ejercicios</button>
+    </div>
+    <div class= "borde">
+        <button class="accordion grabaciones">Grabaciones</button>
+    </div>
+    <div class= "borde">
+        <button class="accordion tareas">Tareas pendientes</button>
+    </div>
+
+    
+    <div class = "cuadraditos">
+        <div class = "cuadrado">
+            <img class= "icono-cuadrado" src="../img/icono-camara.png"> 
+            <br>
+            <h3> Subir Foto </h3>
+        </div>
+        <div class = "cuadrado">
+            <img class= "icono-cuadrado" src="../img/icono-mas.png"> 
+            <br>
+            <h3> Subir Archivo </h3>
+        </div>
+    </div>
+
+    
+    <button class="enviar"> ENVIAR </button>    
+    
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+    
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            
+            for (i = 0; i < acc.length; i++){
+                acc[i].classList.remove("active");
+            }
+            this.classList.toggle("active");
+        });
+        } 
+    </script>
+
+</body>
+</html>

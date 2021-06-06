@@ -1,0 +1,136 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.titulo{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 40px; 
+    padding-top: 2px;
+    color: #2A9D8F;
+}
+
+.enunciado{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000;
+    margin-bottom: 8px;
+}
+
+.en{
+    margin-top: 5px;
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.recuadro{
+    margin-top: 15px;
+    text-justify: auto;
+    font-size: 20px;
+}
+
+
+
+.cuadraditos{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: nowrap;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.cuadrado{
+    text-align: center;
+    color: gray;
+    padding-left: 30px;
+    padding-right: 5px;
+
+  }
+
+  .icono-cuadrado{
+    width: 120px;
+    height: 120px;
+    margin-left: 10px !important; 
+    margin-top: 3px !important;
+    padding: 9px !important;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000;
+}
+
+.com{
+
+    color: #333;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: left !important;
+    margin-left: 40px;
+}
+
+.enviar{
+    margin-top: 30px;
+    background-color:#2A9D8F;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 250px;
+    height: 65px;
+    margin-left: 70px;
+    border-color: black;
+    border-style: solid;
+    align-content: center;
+    
+}
+
+.accordion {
+    cursor: pointer;
+    width:  370px;
+    height: 80px;
+    text-align: left;
+    transition: 0.4s;
+    border-radius: 10px;
+    font-size: 30px;
+    justify-content: center;
+    border-width: 2px;
+    align-content: center;
+    border-color: #000;
+    border-top: transparent;
+    /* border-right: transparent; */
+    border-left: transparent;
+    border-bottom: transparent;
+    color: white;
+    padding-left: 6%;
+}
+
+.teoria{
+    background-color: rgba(0, 107, 213, 0.6);
+}
+.ejercicios{
+    background-color: rgba(235, 141, 58, 1.0);
+}
+.grabaciones{
+    background-color: rgba(242, 86, 82, 1.0);
+}
+.tareas{
+    background-color: rgba(42, 157, 143, 0.87);
+}
+
+.teoria.active{
+    background-color: rgba(0, 107, 213, 1.0);
+}
+.ejercicios.active{
+    background-color: rgba(242, 115, 3, 1.0);
+}
+.grabaciones.active{
+    background-color: rgba(239, 14, 8, 1.0);
+}
+.tareas.active{
+    background-color: rgba(7, 147, 130, 1.0);
+}
