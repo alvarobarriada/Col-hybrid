@@ -4,19 +4,19 @@
     margin-right: 0px;
 }
 .titulo{
-    margin-top: 75px;
+    margin-top: 20px;
     margin-left: 40px;
-    font-size: 90px; 
+    font-size: 40px; 
     padding-top: 2px;
     color: #2A9D8F;
 }
 
 .enunciado{
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 10%;
     margin-right: 10%;
     border-style: solid;
-    padding: 30px;
+    padding: 10px;
     border-width: 2px;
     border-radius: 10px;
     border-color: #000;
@@ -24,32 +24,31 @@
 }
 
 .en{
-    margin-top: 20px;
-    font-size: 50px; 
+    margin-top: 5px;
+    font-size: 30px; 
     font-weight: bold;
 }
 
 .recuadro{
     margin-top: 15px;
     text-justify: auto;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 
 
 .cuadraditos{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: 80px;
+    flex-wrap: nowrap;
+    flex-flow: nowrap;
+    padding-top: 20px;
     padding-bottom: 25px;
 }
 .cuadrado{
     text-align: center;
     color: gray;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 30px;
+    padding-right: 5px;
 
   }
 
@@ -64,28 +63,28 @@
     border-radius: 10px;
     border-color: #000;
 }
-h3 {
+
+.com{
+
     color: #333;
     text-align: center;
-    padding-top: 11px;
-    font-size: xx-large;
-}
-.com{
-    margin-top: 80px;
-    font-size: 50px;
+    padding-top: 8px;
+    margin-top: 10px;
+    font-size: 30px;
     text-align: left !important;
     margin-left: 40px;
 }
 
 .enviar{
-    margin-top: 70px;
+    margin-top: 30px;
     background-color:#2A9D8F;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 30px;
+    width: 250px;
+    height: 65px;
+    margin-left: 70px;
     border-color: black;
     border-style: solid;
-    width: 600px;
-    height: 100px;
-    margin-left: 170px;
     align-content: center;
+    
 }
