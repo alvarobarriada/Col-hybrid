@@ -1,50 +1,30 @@
 
-/*
-.row {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.asignatura {
-    margin-top: 10px;
-    text-align: center;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-}
-*/
 h3 {
     color: #333;
     text-align: center;
     padding-top: 11px;
-    font-size: xx-large;
+    font-size: 20px;
 
 }
 
-
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    padding-top: 75px;
-    padding-bottom: 50px;
+    justify-content: space-around;
+    padding-top: 40px;
 }
 
 
 .asignatura{
   text-align: center;
   color: gray;
-  padding-left: 85px;
-  padding-right: 85px;
+
 }
 .icono-asignatura{
-    width: 200px;
-    height: 200px;
+    width: 90px;
+    height: 90px;
     margin-left: 10px !important; 
     margin-top: 3px !important;
     padding: 9px !important; 
