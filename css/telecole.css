@@ -3,6 +3,7 @@
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    overflow-y: hidden;
 }
 
 .pizarra {
@@ -26,17 +27,22 @@ button {
 img {
     height: 50px;
     width: 50px;
-    border: 200px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.icono {
+    border: solid;
     border-width: 2px;
     border-color: black;
-    margin-top: 15px;
-    margin-bottom: 10px;
 }
 
 .barra {
     background-color: #1B1D1C;
     height: 90px;
     color: white;
+    display: flex;
+    justify-content: space-around;
 }
 
 .fondo {
@@ -45,5 +51,21 @@ img {
 }
 
 h1 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.salir {
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #2A9D8F;
+    background-color: white;
     margin-top: 10px;
+    height: 50px;
+    width: 50px;
 }
