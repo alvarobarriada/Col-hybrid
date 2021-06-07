@@ -1,0 +1,131 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 7%;
+    font-size: 40px;
+}
+
+.accordion {
+    cursor: pointer;
+    width:  350px;
+    height: 80px;
+    text-align: center;
+    transition: 0.4s;
+    border-radius: 10px;
+    font-size: 30px;
+    justify-content: center;
+    border-width: 2px;
+    font-weight: 700;
+    align-content: center;
+    border-color: #000;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    color: white;
+
+}
+
+.borde{
+    margin-top: 50px;
+    margin-left: 7%;
+    width:  350px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #000;
+    margin-bottom: 7%;
+}
+
+.recibidos{
+    background-color: rgba(26, 189, 81, 0.87);
+}
+.enviados{
+    background-color: rgba(158, 82, 242, 1);
+}
+
+.active{
+    border-bottom: solid;
+    border-color: black;
+}
+
+.mensaje {
+    margin-top: 14px;    
+    padding: 0 18px;
+    width:  316px;
+    display: none;
+    overflow: hidden;
+    align-content: center;
+    border-width: 2px;
+    border-style: transparent;
+}
+
+label {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 20px; 
+    color: black; 
+}
+
+/* Cuadro de texto para introducir usuario o contraseña */
+input {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    background-color: white;
+    background-color: #C6C7C8;
+    border-radius: 7px;
+    height: 50px;
+    width: 60%;
+    color: black;
+    font-size:25px;
+}
+
+
+.mensajeBtn {
+    
+    margin-top:10px;
+    margin-bottom: 5px;
+    background-color: #4E8AD8;
+    font-size: 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    width: 200px;
+    height: 60px;
+    margin-left: 110px;
+    align-content: center;
+} 
+
+.icono{
+    height: 13%;
+    width: 13%;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.asunto{
+    display: flex;
+    flex-direction: row;
+}
+
+.responder{
+    font-size: 20px;
+    margin-left: 55%;
+    margin-bottom: 5%;
+    margin-top: -10%;
+}
+
+.pizarra {
+    background-color: white;
+}
+
